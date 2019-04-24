@@ -176,7 +176,7 @@ public class BookInformation extends JFrame{
 	 * 设置确定按钮
 	 */
 	private void setButtonSure() {
-		buttonSure.setBounds(660, 360, 60, 30);
+		buttonSure.setBounds(675, 360, 65, 30);
 		buttonSure.addActionListener(new ActionListener() {
 			
 			@Override
@@ -281,7 +281,7 @@ public class BookInformation extends JFrame{
 	private void setcomboBoxnote() {
 		String[] s = {"借书","还书","预约"};
 		comboBoxnote = new JComboBox<String>(s);
-		comboBoxnote.setBounds(560, 360, 70, 30);
+		comboBoxnote.setBounds(560, 360, 90, 30);
 	}
 	
 	/*

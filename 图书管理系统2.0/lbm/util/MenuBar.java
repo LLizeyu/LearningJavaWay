@@ -53,8 +53,8 @@ public class MenuBar {
 		menuItemExit.addActionListener(new ActionListener() {		
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// 使父窗体不可见
-				frame.setVisible(false);
+				// 关闭父窗体
+				frame.dispose();
 				new Login();
 			}
 		});
@@ -68,8 +68,8 @@ public class MenuBar {
 		menuItemChangetable.addActionListener(new ActionListener() {	
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// 使父窗体不可见
-				frame.setVisible(false);
+				// 关闭父窗体
+				frame.dispose();
 				new SupplementInformation();
 			}
 		});
@@ -83,8 +83,8 @@ public class MenuBar {
 		menuItemRecordInformation.addActionListener(new ActionListener() {		
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// 使父窗体不可见
-				frame.setVisible(false);
+				// 关闭父窗体
+				frame.dispose();
 				new RecordInformation();
 			}
 		});
@@ -98,8 +98,8 @@ public class MenuBar {
 		menuItemBookInformation.addActionListener(new ActionListener() {		
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// 使父窗体不可见
-				frame.setVisible(false);	
+				// 关闭父窗体
+				frame.dispose();
 				new BookInformation();
 			}
 		});

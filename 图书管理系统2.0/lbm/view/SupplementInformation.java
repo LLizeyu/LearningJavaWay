@@ -128,7 +128,7 @@ public class SupplementInformation extends JFrame{
 		labelDate = new JLabel("操作日期");
 		setLabelDate();
 		
-		tip1 = new JLabel("tip:删除时仅需输入书籍编号,增加或修改时必须输入全部信息");
+		tip1 = new JLabel("tip:删除时仅需输入书籍编号,增加或修改时必须输入全部");
 		setTip1();
 		
 		tip2 = new JLabel("tip:删除时仅需输入记录编号,修改时需输入全部信息");
@@ -443,9 +443,9 @@ public class SupplementInformation extends JFrame{
 		labelDate.setFont(new java.awt.Font("Dialog", 1, 18));
 	}
 	private void setTip1() {
-		tip1.setBounds(40, 420, 350, 15);
+		tip1.setBounds(20, 423, 400, 18);
 	}
 	private void setTip2() {
-		tip2.setBounds(420, 420, 300, 15);
+		tip2.setBounds(420, 423, 400, 18);
 	}
 }

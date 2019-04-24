@@ -13,7 +13,7 @@ public class FrameOption {
 		frame.setVisible(true);
 		// 窗口不可调整大小
 		frame.setResizable(false);
-		frame.setSize(800, 508);
+		frame.setSize(800, 513);
 		frame.setLocation(200,100);
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);	
 		
