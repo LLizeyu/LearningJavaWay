@@ -124,17 +124,17 @@ public class BookInformation extends JFrame{
 	}
 	
 	private void setLabelBno() {
-		LabelBno.setBounds(20, 360, 70, 30);
+		LabelBno.setBounds(20, 375, 70, 30);
 		LabelBno.setFont(new java.awt.Font("Dialog", 1, 18));
 	}
 	
 	private void setLabelSno() {
-		LabelSno.setBounds(260, 360, 70, 30);
+		LabelSno.setBounds(260, 375, 70, 30);
 		LabelSno.setFont(new java.awt.Font("Dialog", 1, 18));
 	}
 	
 	private void setLabelNote() {
-		LabelNote.setBounds(500, 360, 70, 30);
+		LabelNote.setBounds(500, 375, 70, 30);
 		LabelNote.setFont(new java.awt.Font("Dialog", 1, 18));
 	}
 	
@@ -149,14 +149,14 @@ public class BookInformation extends JFrame{
 	 * 设置学号添加文本框
 	 */
 	private void setTextFieldBookno() {
-		textFieldBookno.setBounds(90,360 ,150, 30);
+		textFieldBookno.setBounds(90,375,150, 30);
 	}
 	
 	/*
 	 *设置书籍号添加文本框 
 	 */
 	private void setTextFieldStuno() {
-		textFieldStuno.setBounds(330, 360, 150, 30);
+		textFieldStuno.setBounds(330, 375, 150, 30);
 	}
 	/*
 	 * 设置查询按钮
@@ -176,7 +176,7 @@ public class BookInformation extends JFrame{
 	 * 设置确定按钮
 	 */
 	private void setButtonSure() {
-		buttonSure.setBounds(675, 360, 65, 30);
+		buttonSure.setBounds(675, 375, 65, 30);
 		buttonSure.addActionListener(new ActionListener() {
 			
 			@Override
@@ -281,7 +281,7 @@ public class BookInformation extends JFrame{
 	private void setcomboBoxnote() {
 		String[] s = {"借书","还书","预约"};
 		comboBoxnote = new JComboBox<String>(s);
-		comboBoxnote.setBounds(560, 360, 90, 30);
+		comboBoxnote.setBounds(560, 375, 90, 30);
 	}
 	
 	/*

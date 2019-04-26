@@ -74,6 +74,9 @@ public class Login extends JFrame{
 			}
 		});
 	}
+	/*
+	 * 设置按钮事件，并制定修改密码
+	 */
 	private void setButtonLogin() {
 		
 		buttonLogin.setBounds(150,280,90,30);
@@ -87,7 +90,7 @@ public class Login extends JFrame{
 				String pw = "1";
 				if(un.equals(username) && pw.equals(passwd)) {
 					frame.setVisible(false);
-					new MainFrame();
+					new BookInformation();
 				}
 				else if(username.equals("")||passwd.equals("") ) {
 	        		JOptionPane.showMessageDialog(null,"用户名或密码不能为空","错误"
@@ -104,7 +107,7 @@ public class Login extends JFrame{
 	 * 设置密码框
 	 */
 	private void setPasswdField() {
-		textFieldPasswd.setBounds(235,210,180,30);
+		textFieldPasswd.setBounds(220,210,180,30);
 	}
 
 		
@@ -112,16 +115,16 @@ public class Login extends JFrame{
 	 * 设置用户名框
 	 */
 	private void setTextFieldUserName() {
-		texFieldtUserName.setBounds(235,145,180,30);
+		texFieldtUserName.setBounds(220,145,180,30);
 		// 键盘事件，如果按下回车则模拟鼠标点击登录按钮
 		new KeyListener(texFieldtUserName,buttonLogin);
 	}
 	private void setLabelusername() {
-		Labelusername.setBounds(180, 145, 40, 30);
+		Labelusername.setBounds(170, 145, 40, 30);
 		Labelusername.setFont(new java.awt.Font("Dialog", 1, 18));
 	}
 	private void setLabelpasswd() {
-		Labelpasswd.setBounds(180, 210, 40, 30);
+		Labelpasswd.setBounds(170, 210, 40, 30);
 		Labelpasswd.setFont(new java.awt.Font("Dialog", 1, 18));
 	}
 	private void setLabeltitle() {
